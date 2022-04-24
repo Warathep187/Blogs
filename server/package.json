@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "search engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest dist/server.test.js",
+    "start": "node dist/server.js"
+  },
+  "author": "Warathep187",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.1.0",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.4.1",
+    "@types/node": "^17.0.25",
+    "@types/uuid": "^8.3.4",
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2"
+  }
+}
